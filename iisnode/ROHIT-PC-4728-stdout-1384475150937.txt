@@ -1,0 +1,93 @@
+info: socket.io started
+Express server listening on port \\.\pipe\841c0ba8-f982-4c8d-9da1-6638e76590a2
+[90mGET / [32m200 [90m354ms - 2.6kb[0m
+[90mGET / [36m304 [90m16ms[0m
+[90mGET / [32m200 [90m15ms - 2.6kb[0m
+[90mGET / [36m304 [90m11ms[0m
+[90mGET / [36m304 [90m8ms[0m
+[90mGET /chat [32m200 [90m11ms - 1.38kb[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized 3exbGbLnPo-lHWHqJkzi
+debug: setting request GET /socket.io/1/xhr-polling/3exbGbLnPo-lHWHqJkzi?t=1384477084228
+debug: setting poll timeout
+debug: client authorized for 
+debug: clearing poll timeout
+debug: xhr-polling writing 1::
+debug: set close timeout for client 3exbGbLnPo-lHWHqJkzi
+debug: xhr-polling received data packet 5:::{"name":"setname","args":["WebMatrix User"]}
+debug: broadcasting packet
+debug: setting request GET /socket.io/1/xhr-polling/3exbGbLnPo-lHWHqJkzi?t=1384477084298
+debug: setting poll timeout
+debug: clearing poll timeout
+debug: xhr-polling writing 5:::{"name":"messages","args":[{"buffer":[]}]}
+debug: set close timeout for client 3exbGbLnPo-lHWHqJkzi
+debug: discarding transport
+debug: cleared close timeout for client 3exbGbLnPo-lHWHqJkzi
+debug: setting request GET /socket.io/1/xhr-polling/3exbGbLnPo-lHWHqJkzi?t=1384477084341
+debug: setting poll timeout
+debug: discarding transport
+debug: cleared close timeout for client 3exbGbLnPo-lHWHqJkzi
+debug: client authorized
+info: handshake authorized WJ0pd96E-SspTjW3Jkzj
+debug: setting request GET /socket.io/1/xhr-polling/WJ0pd96E-SspTjW3Jkzj?t=1384477144857
+debug: setting poll timeout
+debug: client authorized for 
+debug: clearing poll timeout
+debug: xhr-polling writing 1::
+debug: set close timeout for client WJ0pd96E-SspTjW3Jkzj
+debug: xhr-polling received data packet 5:::{"name":"setname","args":["WebMatrix User"]}
+debug: broadcasting packet
+debug: clearing poll timeout
+debug: xhr-polling writing 5:::{"name":"announcement","args":[{"announcement":"WebMatrix User connected"}]}
+debug: set close timeout for client 3exbGbLnPo-lHWHqJkzi
+debug: setting request GET /socket.io/1/xhr-polling/WJ0pd96E-SspTjW3Jkzj?t=1384477144965
+debug: setting poll timeout
+debug: clearing poll timeout
+debug: xhr-polling writing 5:::{"name":"messages","args":[{"buffer":[]}]}
+debug: set close timeout for client WJ0pd96E-SspTjW3Jkzj
+debug: discarding transport
+debug: cleared close timeout for client WJ0pd96E-SspTjW3Jkzj
+debug: setting request GET /socket.io/1/xhr-polling/WJ0pd96E-SspTjW3Jkzj?t=1384477145012
+debug: setting poll timeout
+debug: discarding transport
+debug: cleared close timeout for client WJ0pd96E-SspTjW3Jkzj
+debug: fired close timeout for client 3exbGbLnPo-lHWHqJkzi
+info: transport end (close timeout)
+debug: broadcasting packet
+debug: clearing poll timeout
+debug: xhr-polling writing 5:::{"name":"announcement","args":[{"announcement":"WebMatrix User disconnected"}]}
+debug: set close timeout for client WJ0pd96E-SspTjW3Jkzj
+debug: discarding transport
+debug: client authorized
+info: handshake authorized lJKqnJ-gDw0iXCctJkzk
+debug: setting request GET /socket.io/1/xhr-polling/lJKqnJ-gDw0iXCctJkzk?t=1384477205523
+debug: setting poll timeout
+debug: client authorized for 
+debug: clearing poll timeout
+debug: xhr-polling writing 1::
+debug: set close timeout for client lJKqnJ-gDw0iXCctJkzk
+debug: xhr-polling received data packet 5:::{"name":"setname","args":["WebMatrix User"]}
+debug: broadcasting packet
+debug: setting request GET /socket.io/1/xhr-polling/lJKqnJ-gDw0iXCctJkzk?t=1384477205580
+debug: setting poll timeout
+debug: clearing poll timeout
+debug: xhr-polling writing 5:::{"name":"messages","args":[{"buffer":[]}]}
+debug: set close timeout for client lJKqnJ-gDw0iXCctJkzk
+debug: discarding transport
+debug: cleared close timeout for client lJKqnJ-gDw0iXCctJkzk
+debug: setting request GET /socket.io/1/xhr-polling/lJKqnJ-gDw0iXCctJkzk?t=1384477205615
+debug: setting poll timeout
+debug: discarding transport
+debug: cleared close timeout for client lJKqnJ-gDw0iXCctJkzk
+debug: fired close timeout for client WJ0pd96E-SspTjW3Jkzj
+info: transport end (close timeout)
+debug: broadcasting packet
+debug: clearing poll timeout
+debug: xhr-polling writing 5:::{"name":"announcement","args":[{"announcement":"WebMatrix User disconnected"}]}
+debug: set close timeout for client lJKqnJ-gDw0iXCctJkzk
+debug: discarding transport
+debug: setting request GET /socket.io/1/xhr-polling/lJKqnJ-gDw0iXCctJkzk?t=1384477265082
+debug: setting poll timeout
+debug: discarding transport
+debug: cleared close timeout for client lJKqnJ-gDw0iXCctJkzk
