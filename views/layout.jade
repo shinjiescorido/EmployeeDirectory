@@ -2,7 +2,7 @@ doctype 5
 html
   head
     - if (typeof(title) == 'undefined')
-        title Express Starter Template
+        Global Zeal - Employee Directory
     - else 
         title= title
     
@@ -20,13 +20,13 @@ html
       div(class='content-wrapper')
         div(class="float-left")
           p(class="site-title")
-            a(href="/") your logo here
+            a(href="/"): img(src='/images/logo.png')
         div(class="float-right")
           section#login
             ul
             -if(!everyauth.loggedIn)
-                li
-                    a(href="/register") Register
+                //li
+                //    a(href="/register") Register
                 li
                     a(href="/login") Log in
                     
