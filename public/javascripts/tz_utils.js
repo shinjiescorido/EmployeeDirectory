@@ -13,3 +13,8 @@ function tz_info(strong, msg){
 	"	<strong>" + strong + "</strong> " + msg + "</p>" +
 	"</div>");
 }
+
+function tz_field_err(selector, errMsg, wrapper){
+	$(selector).addClass("tz_err")
+	$(wrapper == null ? selector : wrapper).after("<div style='color: red;'>" + errMsg + "</div>")
+}
