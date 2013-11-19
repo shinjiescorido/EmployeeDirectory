@@ -12,6 +12,13 @@ html
     // include default scripts and any view scripts
     script(src='/javascripts/jquery-1.8.3.min.js')
     script(src='/javascripts/modernizr.js')
+
+    link(rel='stylesheet', href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css")
+    script(src="//code.jquery.com/jquery-1.9.1.js")
+    script(src="//code.jquery.com/ui/1.10.3/jquery-ui.js")
+
+    link(rel='stylesheet', href="//ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css")
+    script(src="//ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js")
     
     block head
     
@@ -43,8 +50,14 @@ html
             ul#menu
               li 
                 a(href="/") Home
+              //li 
+              //  a(href="/chat") Chat
               li 
-                a(href="/chat") Chat
+                a(href="/chat") Profile
+              li 
+                a(href="/chat") Account
+              li 
+                a(href="/chat") Custom Fields
               li
                 a(href="/about") About
     #body
@@ -59,3 +72,6 @@ html
             li
               a(href="http://facebook.com/MicrosoftWebMatrix", class="facebook") Facebook
               a(href="http://twitter.com/WebMatrix", class="twitter") Twitter
+
+      script
+             $( "input[type=submit], button" ).button();
