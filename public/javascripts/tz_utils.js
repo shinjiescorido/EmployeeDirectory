@@ -18,3 +18,7 @@ function tz_field_err(selector, errMsg, wrapper){
 	$(selector).addClass("tz_err")
 	$(wrapper == null ? selector : wrapper).after("<div style='color: red;'>" + errMsg + "</div>")
 }
+
+function tz_alert(title, message){
+	
+}
